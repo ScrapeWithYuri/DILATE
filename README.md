@@ -1,3 +1,9 @@
+# Yuri Updates
+
+Updated the [synthetic dataset](https://github.com/ScrapeWithYuri/DILATE/blob/master/data/synthetic_dataset.py) script to pull in EUR/USD FOREX data. The data is saved under the [data](https://github.com/ScrapeWithYuri/DILATE/tree/master/data) subfolder.
+
+I tested hourly EUR/USD from 2011, using 28k as the training set. The test used 60 hours as tests, while 20 hours were used to forecast. My results were not promising (perhaps the model overfit the train data, or I did not properly tune the hyperparameters), as found in the below image ![](https://github.com/ScrapeWithYuri/DILATE/blob/master/Figure_1.png)
+
 # DILATE: DIstortion Loss with shApe and tImE
 [Vincent Le Guen](https://www.linkedin.com/in/vincentleguen/),  [Nicolas Thome](http://cedric.cnam.fr/~thomen/)
 
